@@ -2,10 +2,12 @@ import './App.css';
 
 import Logo from './Componnents/Logo';
 import QuemSomosNos from './Componnents/QuemSomosNos';
-import FalseConosco from './Componnents/FalseConosco';
+import FaleConosco from './Componnents/FalseConosco';
 import Shop from './Componnents/Shop';
 import MenuLateral from './Componnents/MenuLateral';
 import Carrossel from './Componnents/Carrossel';
+
+
 
 function App() {
   return (
@@ -16,12 +18,12 @@ function App() {
         </div>
         <div className='informacao'>
           <QuemSomosNos/>
-          <FalseConosco/>
+          <FaleConosco/>
           <Shop/>
           <MenuLateral/>
-          <Carrossel/>
         </div>
       </header>
+      <Carrossel/>
     </div>
   );
 }

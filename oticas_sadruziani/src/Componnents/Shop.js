@@ -1,12 +1,13 @@
 import '../App.css';
 import React from 'react';
+import { FaShoppingCart } from "react-icons/fa";
+
+
 
 function Shop(){
     return (
         <div className="Shop">
-            <text>
-                Logo Carrinho
-            </text>
+            <FaShoppingCart />
         </div>
     )
 

@@ -3,9 +3,9 @@ import React from 'react';
 
 function FalseConosco(){
     return (
-        <div className="FalseConosco">
+        <div className="FaleConosco">
             <text>
-                Quem somos Nós
+                Fale Conosco
             </text>
         </div>
     )
