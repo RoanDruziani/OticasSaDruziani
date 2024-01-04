@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
   position: relative;
@@ -42,11 +43,15 @@
 
 
 .Header{
-  color: rebeccapurple;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
   margin-top: -16px;
   background-color: #558D8B;
-  height: 17vh;
-  
+  height: 17vh; 
+  padding-left: 2vw;
+  padding-right: 2vw;
 }
 
 .Image{
@@ -58,4 +63,34 @@
   background: url(Imagens/Oculos\ do\ Inicio.png);
   background-size: cover;
   color: #fff;
+}
+
+.informacao{
+  display: flex;
+  justify-content: space-between;
+  width: 50vw;
+}
+
+.Logo{
+  font-family: 'Bahnschrift';
+}
+
+.QuemSomosNos{
+  font-weight: bold;
+  font-size: small;
+}
+
+.FalseConosco{
+  font-weight: bold;
+  font-size: small;
+}
+
+.Shop{
+  font-weight: bold;
+  font-size: small;
+}
+
+.MenuLateral{
+  font-weight: bold;
+  font-size: small;
 }

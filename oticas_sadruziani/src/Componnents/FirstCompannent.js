@@ -7,7 +7,6 @@ function FirstComponnentt(){
         <div className="Image">
             <h1>Enchergue o mundo como ele realmente é!</h1>
         </div>
-       
     )
 
 }
