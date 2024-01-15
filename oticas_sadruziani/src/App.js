@@ -6,6 +6,7 @@ import FaleConosco from './Componnents/FalseConosco';
 import Shop from './Componnents/Shop';
 import MenuLateral from './Componnents/MenuLateral';
 import Carrossel from './Componnents/Carrossel';
+import Card from './Componnents/Card/Card';
 
 
 
@@ -24,6 +25,9 @@ function App() {
         </div>
       </header>
       <Carrossel/>
+      <div className='Conj_Card'>
+        <Card/>
+      </div>
     </div>
   );
 }
