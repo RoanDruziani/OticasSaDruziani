@@ -27,6 +27,10 @@ function App() {
       <Carrossel/>
       <div className='Conj_Card'>
         <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
       </div>
     </div>
   );
