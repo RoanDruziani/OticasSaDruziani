@@ -1,0 +1,31 @@
+.TiltleTema_1{
+    font-family: 'Bahnschrift';
+    font-size: 25px;
+  }
+.SubTitleTema_1{
+    color:#558D8B;
+    background-color:white;
+    width: 100px;
+    height: 25px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.TiltleTema_2{
+    font-family: 'Bahnschrift';
+    font-size: 12px;
+    color: #fff;
+    background-color: #558D8B;
+    border-radius: 10px;
+    border: solid 1px #ccc;
+  }
+.SubTitleTema_2{
+    color:#558D8B;
+    background-color:white;
+    width: 3vw;
+    height: 2vh;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+}

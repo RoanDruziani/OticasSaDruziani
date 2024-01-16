@@ -1,0 +1,33 @@
+.Cloud_Footer{
+    position: relative;
+    background-color: #b3e0ff;
+    height: 10vh;
+}
+.Cloud{
+    position: absolute;
+    background-color: #ffffff;
+    width: 5vw;
+    height: 6vh;
+    border-radius: 50%;
+
+    /* Define a posição da nuvem na parte inferior direita do footer */
+    right: 2vw;
+    bottom: 2vw;
+
+    /* Crie um efeito de sombra para a nuvem */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Animação da nuvem para criar o efeito de movimento */
+@keyframes moveCloud {
+    0% {
+      right: 10vw; /* Posição inicial da nuvem fora da tela */
+    }
+    100% {
+      right: 2vw; /* Posição final da nuvem */
+    }
+  }
+  
+  .Cloud {
+    animation: moveCloud 10s infinite alternate linear; /* Use a animação para mover a nuvem */
+  }

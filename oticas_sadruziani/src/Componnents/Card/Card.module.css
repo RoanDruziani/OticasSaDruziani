@@ -23,7 +23,7 @@
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: end;
 }
 .card_icones{
     display: flex;
@@ -46,7 +46,7 @@
 }
 
 .button:hover{
-    background-color: red;
+    background-color: #6AA9A7;
     transition: all .5s;
 }
 

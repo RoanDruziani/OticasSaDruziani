@@ -1,0 +1,11 @@
+.MenuLateral svg{
+    display: flex;
+    justify-content: center;
+    font-size: 1.7em;
+    cursor: pointer;
+  }
+  .MenuLateral svg:hover{
+    color: #D6FFFF;
+    transition: all .5s;
+  }
+  

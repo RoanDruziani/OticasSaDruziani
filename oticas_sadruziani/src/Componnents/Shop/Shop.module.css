@@ -1,0 +1,10 @@
+.Shop{
+    display: flex;
+    justify-content: center;
+    font-size: 1.7em;
+    cursor: pointer;
+  }
+  .Shop:hover{
+    color: #D6FFFF;
+    transition: all .5s;
+  }
